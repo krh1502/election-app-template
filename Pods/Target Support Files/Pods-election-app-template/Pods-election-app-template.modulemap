@@ -1,0 +1,6 @@
+module Pods_election_app_template {
+  umbrella header "Pods-election-app-template-umbrella.h"
+
+  export *
+  module * { export * }
+}

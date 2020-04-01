@@ -1,0 +1,48 @@
+PODS:
+  - Alamofire (4.9.1)
+  - ChameleonFramework/Default (2.1.0)
+  - ChameleonFramework/Swift (2.1.0):
+    - ChameleonFramework/Default
+  - Loading (1.0.4)
+  - RxAlamofire (5.1.0):
+    - RxAlamofire/Core (= 5.1.0)
+  - RxAlamofire/Core (5.1.0):
+    - Alamofire (~> 4.8)
+    - RxSwift (~> 5.0)
+  - RxSwift (5.1.1)
+
+DEPENDENCIES:
+  - Alamofire
+  - ChameleonFramework/Swift (from `https://github.com/wowansm/Chameleon.git`, branch `swift5`)
+  - Loading
+  - RxAlamofire
+  - RxSwift
+
+SPEC REPOS:
+  https://github.com/lixiang1994/Specs:
+    - Loading
+  trunk:
+    - Alamofire
+    - RxAlamofire
+    - RxSwift
+
+EXTERNAL SOURCES:
+  ChameleonFramework:
+    :branch: swift5
+    :git: https://github.com/wowansm/Chameleon.git
+
+CHECKOUT OPTIONS:
+  ChameleonFramework:
+    :commit: 96d52c36a45847fff60bcff7a58fec1e4bd7390b
+    :git: https://github.com/wowansm/Chameleon.git
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
+  Loading: 2b2dfa573b93fe1a6c7bb2f114dbf28dd7549994
+  RxAlamofire: a2d7621de4c23a0c6e7b476b504acc32838ee341
+  RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
+
+PODFILE CHECKSUM: d6693667101ce046f91f5ce5bb9ac7b6d0f3d5dc
+
+COCOAPODS: 1.9.1

@@ -2,8 +2,7 @@
 //  AppDelegate.swift
 //  election-app-template
 //
-//  Created by Kate Halushka on 4/1/20.
-//  Copyright © 2020 Kate Halushka. All rights reserved.
+//  Created by Kate Halushka on 3/27/20.
 //
 
 import UIKit

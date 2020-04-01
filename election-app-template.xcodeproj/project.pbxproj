@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2402F25E290C7F589C221FE2 /* libPods-election-app-template.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49F270755632478FE352D4A4 /* libPods-election-app-template.a */; };
 		8C2587A62434DBF40046A8AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2587A52434DBF40046A8AB /* AppDelegate.swift */; };
 		8C2587A82434DBF40046A8AB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2587A72434DBF40046A8AB /* SceneDelegate.swift */; };
 		8C2587AA2434DBF40046A8AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2587A92434DBF40046A8AB /* ViewController.swift */; };
 		8C2587AD2434DBF40046A8AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C2587AB2434DBF40046A8AB /* Main.storyboard */; };
 		8C2587AF2434DBFA0046A8AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C2587AE2434DBFA0046A8AB /* Assets.xcassets */; };
 		8C2587B22434DBFA0046A8AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C2587B02434DBFA0046A8AB /* LaunchScreen.storyboard */; };
+		8C2587BD2434DCA60046A8AB /* authIds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2587B92434DCA60046A8AB /* authIds.swift */; };
+		8C2587BE2434DCA60046A8AB /* ResponseData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2587BA2434DCA60046A8AB /* ResponseData.swift */; };
+		8C2587BF2434DCA60046A8AB /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2587BB2434DCA60046A8AB /* NetworkManager.swift */; };
+		8C2587C02434DCA60046A8AB /* BallotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2587BC2434DCA60046A8AB /* BallotViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3217E10497EFA36BC7410461 /* Pods-election-app-template.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-election-app-template.debug.xcconfig"; path = "Target Support Files/Pods-election-app-template/Pods-election-app-template.debug.xcconfig"; sourceTree = "<group>"; };
+		49F270755632478FE352D4A4 /* libPods-election-app-template.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-election-app-template.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C2587A22434DBF40046A8AB /* election-app-template.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "election-app-template.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C2587A52434DBF40046A8AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8C2587A72434DBF40046A8AB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +31,11 @@
 		8C2587AE2434DBFA0046A8AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8C2587B12434DBFA0046A8AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8C2587B32434DBFA0046A8AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C2587B92434DCA60046A8AB /* authIds.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = authIds.swift; sourceTree = "<group>"; };
+		8C2587BA2434DCA60046A8AB /* ResponseData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseData.swift; sourceTree = "<group>"; };
+		8C2587BB2434DCA60046A8AB /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		8C2587BC2434DCA60046A8AB /* BallotViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BallotViewController.swift; sourceTree = "<group>"; };
+		EBA1CD908D76617834B8BDCB /* Pods-election-app-template.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-election-app-template.release.xcconfig"; path = "Target Support Files/Pods-election-app-template/Pods-election-app-template.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +43,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2402F25E290C7F589C221FE2 /* libPods-election-app-template.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5FFB527931F3F9049D6178D8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				49F270755632478FE352D4A4 /* libPods-election-app-template.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8C2587992434DBF40046A8AB = {
 			isa = PBXGroup;
 			children = (
 				8C2587A42434DBF40046A8AB /* election-app-template */,
 				8C2587A32434DBF40046A8AB /* Products */,
+				CA153C9C15337F206084868A /* Pods */,
+				5FFB527931F3F9049D6178D8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +79,53 @@
 		8C2587A42434DBF40046A8AB /* election-app-template */ = {
 			isa = PBXGroup;
 			children = (
+				8C2587C12434DCBC0046A8AB /* Controllers */,
+				8C2587C22434DCD80046A8AB /* Models */,
+				8C2587C32434DCE20046A8AB /* Views */,
 				8C2587A52434DBF40046A8AB /* AppDelegate.swift */,
 				8C2587A72434DBF40046A8AB /* SceneDelegate.swift */,
-				8C2587A92434DBF40046A8AB /* ViewController.swift */,
-				8C2587AB2434DBF40046A8AB /* Main.storyboard */,
 				8C2587AE2434DBFA0046A8AB /* Assets.xcassets */,
 				8C2587B02434DBFA0046A8AB /* LaunchScreen.storyboard */,
 				8C2587B32434DBFA0046A8AB /* Info.plist */,
 			);
 			path = "election-app-template";
+			sourceTree = "<group>";
+		};
+		8C2587C12434DCBC0046A8AB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8C2587BC2434DCA60046A8AB /* BallotViewController.swift */,
+				8C2587A92434DBF40046A8AB /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		8C2587C22434DCD80046A8AB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8C2587BB2434DCA60046A8AB /* NetworkManager.swift */,
+				8C2587B92434DCA60046A8AB /* authIds.swift */,
+				8C2587BA2434DCA60046A8AB /* ResponseData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8C2587C32434DCE20046A8AB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8C2587AB2434DBF40046A8AB /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CA153C9C15337F206084868A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3217E10497EFA36BC7410461 /* Pods-election-app-template.debug.xcconfig */,
+				EBA1CD908D76617834B8BDCB /* Pods-election-app-template.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +135,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8C2587B62434DBFA0046A8AB /* Build configuration list for PBXNativeTarget "election-app-template" */;
 			buildPhases = (
+				5FCED76AA746F537649FE3E9 /* [CP] Check Pods Manifest.lock */,
 				8C25879E2434DBF40046A8AB /* Sources */,
 				8C25879F2434DBF40046A8AB /* Frameworks */,
 				8C2587A02434DBF40046A8AB /* Resources */,
@@ -133,13 +195,42 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5FCED76AA746F537649FE3E9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-election-app-template-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8C25879E2434DBF40046A8AB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C2587C02434DCA60046A8AB /* BallotViewController.swift in Sources */,
+				8C2587BF2434DCA60046A8AB /* NetworkManager.swift in Sources */,
 				8C2587AA2434DBF40046A8AB /* ViewController.swift in Sources */,
 				8C2587A62434DBF40046A8AB /* AppDelegate.swift in Sources */,
+				8C2587BE2434DCA60046A8AB /* ResponseData.swift in Sources */,
+				8C2587BD2434DCA60046A8AB /* authIds.swift in Sources */,
 				8C2587A82434DBF40046A8AB /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,6 +373,7 @@
 		};
 		8C2587B72434DBFA0046A8AB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3217E10497EFA36BC7410461 /* Pods-election-app-template.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +392,7 @@
 		};
 		8C2587B82434DBFA0046A8AB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBA1CD908D76617834B8BDCB /* Pods-election-app-template.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
